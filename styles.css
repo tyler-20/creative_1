@@ -2,11 +2,39 @@
     box-sizing: border-box;
 }
 
+.button {
+    color: #fff;
+    background-color: #323639;
+    border-color: #323639;
+}
+.button:hover {
+    color: #fff!important;
+    background-color: #737375;
+    border-color: #737375;
+}
+.button:active {
+    background-color: #737375;
+    border-color: #737375;
+}
+
+@media (max-width: 600px) {
+    .button {
+        width: 90%!important;
+        margin-left: 5px!important;
+        margin-right: 5px!important;
+    }
+}
+
+
 .my-container {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.centered {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .my-element-divider {
