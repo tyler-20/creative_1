@@ -1,0 +1,17 @@
+
+.my-container form {
+    margin: 20px;
+    width: 500px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 500px) {
+    .my-container form {
+        width: 100%;
+        margin: 5px;
+    }
+}
